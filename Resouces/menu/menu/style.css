@@ -1,0 +1,169 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sushiset img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.sushiset img:hover {
+    width: 200px;
+    height: 200px;
+    padding: 3px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+
+.boxset img {
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
+    border-radius: 10px;
+}
+
+.boxset img:hover {
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.sushiset {
+    margin-top: 200px;
+    width: 400px;
+    margin-left: 150px;
+    padding: 30px;
+
+    border: bisque solid ;
+    border-radius: 10px;
+}
+
+.boxset {
+    float: right;
+    position: relative;
+    bottom: 920px;
+    right: 180px;
+    width: 400px;
+    padding: 30px;
+    border: bisque solid ;
+    border-radius: 10px;
+
+}
+
+
+.sushiset label {
+    float: right;
+    position: relative;
+    top: 35px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #293345 5px 5px ;
+    font-family: 'Redressed', cursive;
+    font-size: 20px;
+}
+
+
+.boxset label {
+    float: left;
+    position: relative;
+    top: 35px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: #293345 5px 5px ;
+    font-family: 'Redressed', cursive;
+    font-size: 20px;
+}
+
+.sushiset label:hover {
+    color: white;
+    background-color: #293345;
+    box-shadow: 5px 5px wheat;
+    transition: 0.5s;
+}
+
+.boxset label:hover {
+    color: white;
+    background-color: #293345;
+    box-shadow: 5px 5px wheat;
+    transition: 0.5s;
+}
+
+.sushiset p {
+    float: right;
+}
+
+
+h1 {
+    color: white;
+    font-family: 'Redressed', cursive;
+}
+
+.add {
+    margin-left: 150px;
+    position: relative;
+    bottom: 450px;
+
+}
+.add img {
+    width: 90%;
+    height: 85%;
+    border-radius: 10px;
+}
+
+.add h1 {
+    color: #23a6d5;
+    position: relative;
+    top: 650px;
+    left: 300px;
+    font-size: 4.0em;
+    padding: 10px;
+    background-color: white;
+    width: 550px;
+    text-align: center;
+}
+
+.footer  {
+    margin-left: 650px;
+}
+
+.footer h1 {
+    font-size: 1.2em;
+    width: 100%;
+}
+
+
+.footer h2 {
+    color: white;
+    font-family: 'Lobster', cursive;
+    position: relative;
+    font-size: 2.5em;
+    bottom: 250px;
+    right: 250px;
+    text-decoration: underline white;
+}
+
+.banner {
+    text-align: center;
+    font-size: 2.8em;
+    text-decoration: underline white;
+    font-family: 'Redressed', cursive;
+}
+
+
+.banner h1:hover {
+    letter-spacing: 8px;
+    transition: 0.5s;
+    text-decoration: underline red;
+}

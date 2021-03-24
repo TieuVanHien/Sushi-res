@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Sans:wght@700&display=swap');
+
+footer {
+    padding: 10px ;
+    text-align: center;
+    background: black;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}

@@ -1,0 +1,151 @@
+
+a {
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+.testimonials
+{
+    position: relative;
+    background-color: #2d3138;
+    padding: 2.3rem 1.5rem 2.5rem;
+    margin: 3rem 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonials:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 1.5rem;
+    border-top-color: #f9f9f9;
+    margin-left: -1.5rem;
+}
+
+.testimonials .title {
+    color: #f9f9f9;
+    padding-bottom: 1.3rem;
+}
+
+.testimonials p {
+    font-size: 1.3rem;
+    line-height: 1.33;
+    font-size: normal;
+    font-weight: 400;
+    color: #ad823e;
+}
+
+.testimonials cite {
+    display: block;
+    color: #bec4c7;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-style: normal;
+}
+
+.slides {
+    overflow: hidden;
+    padding-bottom: 3rem;
+    position: relative;
+}
+
+.slide {
+    position: relative;
+    float: left;
+    width: 95%;
+    margin-right: -100%;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    transition: opacity .5s;
+}
+
+.slide:first-of-type,
+.slide-ctrl:nth-of-type(1):target ~
+.slide:nth-of-type(1),
+.slide-ctrl:nth-of-type(2):target ~
+.slide:nth-of-type(2),
+.slide-ctrl:nth-of-type(3):target ~
+.slide:nth-of-type(3) {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.slide-ctrl:target ~ .slide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.slide-ctrl {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.slide-btn {
+    background: #5a5c5d;
+    display: inline-block;
+    width: .83rem;
+    height: .83rem;
+    line-height: 1;
+    overflow: hidden;
+    margin: 0 .85rem;
+    -webkit-tap-highlight-color: transparent;
+    text-indent: 100%;
+    border-radius: 999px;
+}
+
+.slide-btn:hover,
+.slide-btn:focus {
+    background: white;
+}
+
+
+.slide-btn:first-of-type,
+.slide-ctrl:nth-of-type(1):target ~
+.slides-ctrl .slide-btn:nth-of-type(1),
+.slide-ctrl:nth-of-type(2):target ~
+.slides-ctrl .slide-btn:nth-of-type(2),
+.slide-ctrl:nth-of-type(3):target ~
+.slides-ctrl .slide-btn:nth-of-type(3) {
+    background: #bcbcbc;
+    box-shadow: 0 0 0 4px #ad823e;
+}
+
+.slide-ctrl:target ~ .slides-ctrl .slide-btn {
+    background: #ad823e;
+    box-shadow: 0 0 0 3px #2d3138;
+}
+
+::-moz-selection {
+    background: rgba(173, 130, 62, .25);
+}
+
+::selection {
+    background: rgba(173, 130, 62, .25);
+}
+
+@media (max-width: 900px) {
+    .testimonials p {
+    font-size: 1.3rem;
+    line-height: 1.33;
+    font-size: normal;
+    font-weight: 400;
+    color: #ad823e;
+    margin-right: 20px;
+    }
+    .testimonials cite {
+    display: block;
+    color: #bec4c7;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-style: normal;
+    margin-right: 15px;
+}
+}

@@ -1,0 +1,248 @@
+/* Font google */
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+
+P
+{
+    font-weight: 300;
+    color: #111;
+}
+
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: rgba(0,0,0,0.5);
+    margin-left: -8px;
+}
+
+
+.video-background {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        min-width: 101%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -1;
+    }
+
+.banner .content
+{
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner .content h2
+{
+    font-size: 5em;
+    color: aliceblue;
+}
+
+.banner .content p
+{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.btn
+{
+    font-size: 1em;
+    color: aliceblue;
+    background: darkgray;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+    letter-spacing: 6px;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 0 100px;
+    z-index: 1;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    background: rgb(0, 0, 0);
+    background: rgba(0,0,0, .9);
+}
+
+header .logo
+{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.logo img {
+    margin-left: -30px;
+    margin-top: 10p;
+    /* float: right; */
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+header.sticky
+{
+    background: #fff;
+    padding: 0px 100px;
+    box-shadow: 0 50px 20px rgba(0,0,0,0.05);
+}
+
+header.sticky .navigation li a
+{
+    color: black;
+    font-family: 'Della Respira', serif;
+}
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Della Respira', serif;
+}
+
+header .navigation li a:hover
+{
+    color: deeppink;
+}
+
+section
+{
+    padding: 10px;
+    font-family: 'Della Respira', serif;
+}
+
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+
+.titleText
+{
+    color: black;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    /*min-height: 300px;*/
+    height: 100%;
+}
+
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 500px;
+    height: 300px;;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+.section-meals {
+    width: 95%;
+}
+
+.title-menu {
+    text-align: center;
+    font-size: 30px;
+}

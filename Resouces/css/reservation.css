@@ -1,0 +1,53 @@
+.container-reservation {
+    background-color: #fafafa;
+    margin: 50px;
+    box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-weight: 400;
+    padding: 50px;
+}
+.container-time {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 90px;
+    outline: 3px dashed #998100;
+    outline-offset: -30px;
+    text-align: center;
+}
+
+.reservationOrder {
+    padding: 10px;
+    
+}
+
+.container-time p,
+.container-time h2,
+.container-time h3,
+.container-time h4 {
+    color: white;
+}
+
+
+.container-form {
+    padding: 20px 0;
+    margin: 0 auto;
+    color: #000;
+}
+
+.container-form form {
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+
+.form-field {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-field input {
+    margin-left: 20px;
+    height: 40px;
+    border-radius: 10px;
+}
+

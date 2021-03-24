@@ -1,0 +1,485 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+P
+{
+    font-weight: 300;
+    color: #111;
+}
+.banner
+{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(background.jpg);
+    background-size: cover;
+}
+
+.banner .content
+{
+    max-width: 900px;
+    text-align: center;
+}
+
+.banner .content h2
+{
+    font-size: 5em;
+    color: aliceblue;
+}
+
+.banner .content p
+{
+    font-size: 2em;
+    color: aliceblue;
+}
+
+.btn
+{
+    font-size: 1em;
+    color: aliceblue;
+    background: darkgray;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.btn:hover
+{
+    letter-spacing: 6px;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 40px 100px;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+header .logo
+{
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+header.sticky
+{
+    background: #fff;
+    padding: 10px 100px;
+    box-shadow: 0 50px 20px rgba(0,0,0,0.05);
+}
+
+header.sticky .navigation li a
+{
+    color: black;
+}
+
+header .navigation
+{
+    position: relative;
+    display: flex;
+}
+
+header .navigation li
+{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .navigation li a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+}
+
+header .navigation li a:hover
+{
+    color: deeppink;
+}
+
+section
+{
+    padding: 100px ;
+}
+
+.row
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col50
+{
+    position: relative;
+    width: 48%;
+}
+
+.titleText
+{
+    color: black;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.titleText span
+{
+    color: red;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.row .col50 .imgBx
+{
+    position: relative;
+    width: 100%;
+    /*min-height: 300px;*/
+    height: 100%;
+}
+
+.row .col50 .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.menu .sushiroll img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.menu .sushiroll img {
+    position: relative;
+    left: 600px;
+    top: 20px;
+    align-items: flex-end;
+
+}
+
+.menu .sushiroll {
+    padding: 30px;
+}
+
+.menu .sushiroll img:hover {
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    padding: 3px;
+    background-color: white;
+}
+
+.sushiroll  {
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sushiroll label {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+
+.sushiroll label {
+    position: relative;
+    left: 100px;
+}
+
+/* good dinner menu */
+
+.menu .gooddinner img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.menu .gooddinner img {
+    position: relative;
+    left: 500px;
+    top: 20px;
+    align-items: flex-end;
+
+}
+
+.menu .gooddinner {
+    padding: 30px;
+}
+
+.menu .gooddinner img:hover {
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    padding: 3px;
+    background-color: white;
+}
+
+.gooddinner  {
+    background-image: url("2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gooddinner label {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+}
+
+.gooddinner label {
+    position: relative;
+    left: 100px;
+}
+
+/* special menu */
+
+.menu .specialmenu img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.menu .specialmenu img {
+    position: relative;
+    left: 500px;
+    top: 20px;
+    align-items: flex-end;
+
+}
+
+.menu .specialmenu {
+    padding: 30px;
+}
+
+.menu .specialmenu img:hover {
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    padding: 3px;
+    background-color: white;
+}
+
+.specialmenu  {
+    background-image: url("3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.specialmenu label {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.specialmenu label {
+    position: relative;
+    left: 10px;
+}
+
+
+/* vegetarian */
+
+.menu .vegetarian img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.menu .vegetarian img {
+    position: relative;
+    left: 500px;
+    top: 20px;
+    align-items: flex-end;
+
+}
+
+.menu .vegetarian {
+    padding: 30px;
+}
+
+.menu .vegetarian img:hover {
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    padding: 3px;
+    background-color: white;
+}
+
+.vegetarian  {
+    background-image: url("5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vegetarian label {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.vegetarian label {
+    position: relative;
+    left: 100px;
+}
+
+/* kimbap */
+
+.menu .kimbap img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.menu .kimbap img {
+    position: relative;
+    left: 600px;
+    top: 20px;
+    align-items: flex-end;
+
+}
+
+.menu .kimbap {
+    padding: 30px;
+}
+
+.menu .kimbap img:hover {
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    padding: 3px;
+    background-color: white;
+}
+
+.kimbap  {
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kimbap label {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.kimbap label {
+    position: relative;
+    left: 100px;
+}
+
+
+/* dragon rolls */
+
+.menu .dragonroll img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+
+}
+
+.menu .dragonroll img {
+    position: relative;
+    left: 600px;
+    top: 20px;
+    align-items: flex-end;
+
+}
+
+.menu .dragonroll {
+    padding: 30px;
+}
+
+.menu .dragonroll img:hover {
+    width: 130px;
+    height: 130px;
+    transition: 0.5s;
+    padding: 3px;
+    background-color: white;
+}
+
+.dragonroll  {
+    background-image: url("6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dragonroll label {
+    color: white;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 30px;
+    position: relative;
+
+}
+
+.dragonroll label {
+    position: relative;
+    left: 350px;
+}
+
+.menubanner h1 {
+    font-family: 'Redressed', cursive;
+    position: relative;
+    bottom: 50px;
+    left: 300px;
+    font-size: 40px;
+}
+
+.menu h1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+#dragonroll {
+    margin-left: 350px;
+}
